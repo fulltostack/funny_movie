@@ -30,4 +30,18 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title: 'Funny Movies'
+  session:
+    logged_in: 'Logged in!'
+    invalid_email_or_pwd: 'Email or password is invalid'
+    logged_out: 'Logged out!'
+    user_creation_error: 'Error while creating user, please try again, error: %{error}'
+    empty_required_fields: 'Email and Password are both are required'
+
+  user:
+    welcome: 'Welcome'
+    log_in: 'Log In'
+    log_out: 'Log Out'
+    share: 'Share'
+    email: 'user@example.com'
+    password: 'password'
