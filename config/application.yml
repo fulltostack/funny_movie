@@ -1,0 +1,20 @@
+development:
+  SECRET_KEY_BASE: ebdb2f5f4fe19e6efbc24d90b38dcf0801446340c30d7870f4e66742849dda11390501dbc1009988013154ef28303a8de1ce569358be4375f965ab13ebc9dcde
+  DB_USER: 'rails'
+  DB_PASSWORD: 'rails'
+  DB_HOST: 'localhost'
+  DB_NAME: 'funny_movie_development'
+
+test:
+  SECRET_KEY_BASE: 1de9d4ecd9f02ce854fe3096c61982c8e023a920720a3539b528c8634830fea16b12661ff7998bccaed89a165fda2d3c000387413e82491e4fc221f8ca1f0068s
+  DB_USER: 'rails'
+  DB_PASSWORD: 'rails'
+  DB_HOST: 'localhost'
+  DB_NAME: 'funny_movie_test'
+
+production:
+  SECRET_KEY_BASE: ''
+  DB_USER: ''
+  DB_PASSWORD: ''
+  DB_HOST: ''
+  DB_NAME: ''
