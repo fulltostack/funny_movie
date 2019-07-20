@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   resources :sessions, only: [:create]
   get 'login', to: 'sessions#new', as: 'login'
   get 'logout', to: 'sessions#destroy', as: 'logout'
+
+  resources :youtube_videos, only: :create
+  get 'share', to: 'youtube_videos#new', as: :share
 end

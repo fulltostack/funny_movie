@@ -38,6 +38,12 @@ en:
     user_creation_error: 'Error while creating user, please try again, error: %{error}'
     empty_required_fields: 'Email and Password are both are required'
 
+  youtube_video:
+    created: 'Youtube video record has been created successfully.'
+    share_video_label: 'Share a Youtube video:'
+    url_label: 'Youtube URL:'
+    share: 'Share'
+
   user:
     welcome: 'Welcome'
     log_in: 'Log In'
@@ -45,3 +51,4 @@ en:
     share: 'Share'
     email: 'user@example.com'
     password: 'password'
+    unauthorized: 'Not authorized'
