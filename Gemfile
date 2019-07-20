@@ -40,6 +40,12 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem "figaro"
 # Use JQuery for UI
 gem 'jquery-rails'
+# Use to fetch youtube details
+gem 'youtube_addy', '~> 1.0.4'
+# Use to fetch youtube details
+gem 'video_info', '~> 2.7'
+# Use to run background jobs
+gem 'sidekiq'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

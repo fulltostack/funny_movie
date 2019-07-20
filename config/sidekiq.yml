@@ -1,0 +1,11 @@
+---
+:concurrency: 5
+staging:
+  :concurrency: 10
+production:
+  :concurrency: 20
+:queues:
+  - yt_metadata_scraper
+  - default
+  - low
+max_retries: 5
