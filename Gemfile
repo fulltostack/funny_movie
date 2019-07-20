@@ -46,6 +46,8 @@ gem 'youtube_addy', '~> 1.0.4'
 gem 'video_info', '~> 2.7'
 # Use to run background jobs
 gem 'sidekiq'
+# Use for pagination
+gem 'kaminari'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

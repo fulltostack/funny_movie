@@ -76,6 +76,31 @@ fieldset p {
   text-align: center;
 }
 
+.list-items {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0;
+}
+
+.video-details {
+    flex: 1;
+    text-align: left;
+    padding: 0 30px;
+}
+
+.video-details .vote a {
+    display: inline-block;
+}
+
+.video-details .vote a i {
+    font-size: 26px;
+    padding: 0;
+}
+
+.video-details .vote p {
+    margin: 0;
+}
+
 .form-center{
   width: 60%;
   text-align: center;
