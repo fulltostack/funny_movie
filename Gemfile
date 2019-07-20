@@ -75,6 +75,10 @@ group :test do
   gem 'launchy'
   gem 'shoulda-matchers'
   gem 'shoulda-callback-matchers'
+
+  # Adds support for Capybara system testing and selenium driver
+  gem 'capybara', '>= 2.15'
+  gem 'selenium-webdriver'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
