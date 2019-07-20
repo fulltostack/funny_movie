@@ -48,6 +48,10 @@ gem 'video_info', '~> 2.7'
 gem 'sidekiq'
 # Use for pagination
 gem 'kaminari'
+# Use to display thumb up and thumb down
+gem 'material_icons'
+# Use to separate bussiness logic
+gem 'active_interaction', '~> 3.7'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

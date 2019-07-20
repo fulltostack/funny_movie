@@ -38,11 +38,23 @@ en:
     user_creation_error: 'Error while creating user, please try again, error: %{error}'
     empty_required_fields: 'Email and Password are both are required'
 
+  page:
+    no_videos: 'No video shared yet :('
+    share_now: 'Share now!'
+    description: 'Description'
+    shared_by: 'Shared by:'
+
   youtube_video:
+    no_title: 'No Title'
+    no_description: 'No Description'
     created: 'Youtube video record has been created successfully.'
     share_video_label: 'Share a Youtube video:'
     url_label: 'Youtube URL:'
     share: 'Share'
+    not_found: 'Not found'
+    not_voted: '(un-voted)'
+    up_voted: '(voted up)'
+    down_voted: '(voted down)'
 
   user:
     welcome: 'Welcome'
@@ -52,3 +64,6 @@ en:
     email: 'user@example.com'
     password: 'password'
     unauthorized: 'Not authorized'
+
+  youtube_video_vote:
+    already_voted: 'Already voted'

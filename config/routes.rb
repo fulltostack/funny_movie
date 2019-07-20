@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
   resources :youtube_videos, only: :create
   get 'share', to: 'youtube_videos#new', as: :share
+  post 'vote', to: 'youtube_video_votes#vote', as: :vote
 end
