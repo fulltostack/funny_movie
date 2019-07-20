@@ -2,6 +2,8 @@ RSpec.describe YoutubeVideo, type: :model do
 
   let(:yt_video) { build(:youtube_video) }
 
+  before(:each) { allow_any_instance_of(YoutubeVideo).to receive(:scrap_video_metadata).and_return(true) }
+
   describe 'schema' do
     it { should have_db_column(:user_id).of_type(:integer) }
     it { should have_db_column(:url).of_type(:string) }
@@ -27,5 +29,9 @@ RSpec.describe YoutubeVideo, type: :model do
   describe 'associations' do
     it { should have_many(:youtube_video_votes) }
     it { should belong_to(:user) }
+  end
+
+  describe 'callbacks' do
+    it { is_expected.to callback(:scrap_video_metadata).after(:create) }
   end
 end
